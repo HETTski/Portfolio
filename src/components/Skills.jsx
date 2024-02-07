@@ -8,6 +8,7 @@ import MONGO from "../assets/mongo.png"
 import NODE from "../assets/node.png"
 import TAILWIND from "../assets/tailwind.png"
 import CPP from "../assets/cpp.png"
+import PYTHON from "../assets/python-logo-only.png"
 
 
 
@@ -38,8 +39,8 @@ const Skills = () => {
                     <p className='my-4'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300'>
-                    <img className="w-20 mx-auto" src={MONGO} alt="HTML icon"/>
-                    <p className='my-4'>MongoDB</p>
+                    <img className="w-20 mx-auto" src={PYTHON} alt="HTML icon"/>
+                    <p className='my-4'>Python</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300'>
                     <img className="w-20 mx-auto" src={NODE} alt="HTML icon"/>
