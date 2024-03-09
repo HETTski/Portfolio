@@ -17,8 +17,8 @@ const About = () => {
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Hi. I'm Hubert, nice to meet you. Please take a look around.</p>
                     </div>
-                    <div>
-                        <p>Lorem Ipsum I will change that later, I need to think about myself how I can advertise myself as a developer. Overall I hope someone will read this one time</p>
+                    <div >
+                        <p>I'm a second year cybersecurity student. I also do full-stack web developing in free time. I'm intrerested in blockchain and web3 technologies. I'm very excited improve my developer skills!</p>
                     </div>
                 </div>
         </div>
