@@ -7,7 +7,7 @@ const Work = () => {
        <div className='max-w-[1000px] mx-auto pd-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#EFECEC] border-[#FC6736]'>Work</p>
-                <p className='py-6'> Here you can find me recend works</p>
+                <p className='py-6'> Here you can find my recend works</p>
             </div>
 
             <div
