@@ -1,5 +1,7 @@
 import React from 'react'
 import ConfigImg from '../assets/config.png'
+import GutenbergImg from '../assets/Gutenberg.png'
+import LEDcube from '../assets/LEDcube.png'
 
 const Work = () => {
   return (
@@ -29,10 +31,50 @@ const Work = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+               
             </div>
+
+    
+           <div
+               style={{backgroundImage: `url(${GutenbergImg})`}} 
+              className='shadow-lg shadow-[#040c16] group container rounded-md justrify-center items-center mx-auto content-div'>
+                {/*hover*/}
+                <div className='opacity-0 group-hover:opacity-100'>
+                  <span className='text-2xl font-bold text-white tracking-wider'>
+                    Project Gutenberg Library App
+                  </span>
+                  <div className='pt-8 text-center'>
+                    { <a href="https://hettski.github.io/GutenbergLibrary/">
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#0C2D57] text-white-7000 font-bold text-lg'>Demo</button>
+                    </a> }
+                    <a href="https://github.com/HETTski/GutenbergLibrary">
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#0C2D57] text-white-7000 font-bold text-lg'>Code</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+               style={{backgroundImage: `url(${LEDcube})`}} 
+              className='shadow-lg shadow-[#040c16] group container rounded-md justrify-center items-center mx-auto content-div'>
+                {/*hover*/}
+                <div className='opacity-0 group-hover:opacity-100'>
+                  <span className='text-2xl font-bold text-white tracking-wider'>
+                    LED CUbe
+                  </span>
+                  <div className='pt-8 text-center'>
+                    { <a href="https://ledcube.solvro.pl/">
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#0C2D57] text-white-7000 font-bold text-lg'>Demo</button>
+                    </a> }
+                    <a href="https://github.com/Solvro/web-led-cube">
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#0C2D57] text-white-7000 font-bold text-lg'>Code</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              </div>
         </div>
     </div>
+ 
   )
 }
 
